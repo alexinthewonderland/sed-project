@@ -2,8 +2,8 @@
 
 In this project, our goal is to interpolate the SED plot of a galaxy using the appropriate methods to find the Star Formation Rate (SFR) of he galaxy in study. My supervisor on this, which is Mr. Leo W.H. Fung, has a plan to use this project to be used when JWST has finally launched and obtain crucial observations! 
 
-* [class_def](https://github.com/alexinthewonderland/sed-project/tree/main/class_def) folder is a folder that contains all the class and function definitions that would be used in the sed_evaluation.py file 
-* [throughput-file](https://github.com/alexinthewonderland/sed-project/tree/main/throughput-file) folder
+* [class_def](https://github.com/alexinthewonderland/sed-project/tree/main/class_def) folder is a folder that contains all the class and function definitions that would be used in the [sed_evaluation.py](https://github.com/alexinthewonderland/sed-project/blob/main/sed_evaluation.ipynb) file 
+* [throughput-file](https://github.com/alexinthewonderland/sed-project/tree/main/throughput-file) folder contains a few ```.csv``` file data to test out the SED fitting interpolation.
 * [sed_evaluation.py](https://github.com/alexinthewonderland/sed-project/blob/main/sed_evaluation.ipynb) file is made by Mr. Leo W.H. Fung that consists of some functions relating to obtaining the wavefunction and generating the SED of a galaxy depending on how fast the Star Formation Rate (SFR) is.
 * [sersic-profile.ipynb](https://github.com/alexinthewonderland/sed-project/blob/main/sersic-profile.ipynb) contains thhttps://github.com/alexinthewonderland/sed-project/blob/main/sersic-profile.ipynbe code to generate a simulation of a galaxy light distribution based on its Sersic profile.
 * [redshifted-sed](https://github.com/alexinthewonderland/sed-project/blob/main/redshifted-sed.ipynb) adds a redshift effect to the observed galaxy SED and various types of noises to resemble more of a real a galaxy's SED observation.
